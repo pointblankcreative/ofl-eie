@@ -1,0 +1,72 @@
+// Fonts
+
+$pink: #E71845;
+$yellow: #E1D636;
+$black: #040507;
+
+h1 {
+    font-family: 'Passion One', cursive;
+    // font-size: 210px;
+    // line-height: 158px;
+    font-size: 140px;
+    line-height: 110px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Passion One', cursive;
+    font-size: 80px;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
+    line-height: 42px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Paralucent', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+a {
+    font-family: 'Paralucent', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: $pink;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+// Icons
+i {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+i.fa-angle-up {
+    display: none;
+    color: $black;
+}
+
+i.fa-angle-down {
+    color: $black;
+    display: inline-block;
+}
+
+i.fa-circle {
+    color: $pink;
+    font-size: 10px;
+}

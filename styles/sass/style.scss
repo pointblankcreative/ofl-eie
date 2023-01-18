@@ -1,0 +1,36 @@
+@import 'fonts';
+@import 'forms';
+@import 'content';
+@import 'ticker';
+
+$pink: #E71845;
+$yellow: #E1D636;
+$black: #040507;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    // border: 1px solid grey;
+}
+.container,
+.container-fluid {
+    overflow: hidden;
+    padding: 0;
+}
+body {
+    color: $black;
+    background-color: transparent;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+    width: 100%;
+    display: block;
+}
+

@@ -1,0 +1,125 @@
+$pink: #E71845;
+$yellow: #E1D636;
+$black: #040507;
+
+// Action Network Form
+#can-event-area-enough-is-enough-activist-assembly {
+    background-color: $black !important;
+
+    #can_embed_form {
+        background-color: $black !important;
+        border: none !important;
+    }
+}
+
+#can_embed_form #can_embed_form_inner {
+    .last_line {
+        border-bottom: none !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    h4 {
+        display: none !important;
+    }
+}
+
+#can_embed_form #can_embed_form_inner {
+    h2 {
+        font-family: 'Passion One', cursive !important;
+        font-size: 50px !important;
+        line-height: 42px !important;
+        color: #fff !important;
+    }
+}
+
+// Current Users
+#can_embed_form #can_embed_form_inner {
+    #action_welcome_message #action_welcome_message_inner {
+        background-color: transparent !important;
+        border: 1px solid #fff !important;
+
+        div {
+            color: #fff !important;
+            font-family: 'Paralucent', sans-serif !important;
+            font-weight: 200 !important;
+            font-size: 16px !important;
+
+            small {
+                color: #fff !important;
+                font-family: 'Paralucent', sans-serif !important;
+                font-weight: 200 !important;
+                font-size: 16px !important;
+            }
+        }
+    }
+}
+
+// Inputs
+#can_embed_form #can_embed_form_inner {
+    input[type=text],
+    input[type=password],
+    input[type=url],
+    input[type=email],
+    input[type=tel],
+    input[type=number] {
+        font-family: 'Paralucent', sans-serif !important;
+        border-radius: 23px !important;
+        line-height: 25px !important;
+        border: none !important;
+        margin-top: 30px !important;
+
+        &:focus {
+            border-color: $pink !important;
+        }
+    }
+
+    .floatlabel-wrapper {
+        label.floatlabel-label {
+            font-family: 'Paralucent', sans-serif !important;
+            font-size: 16px !important;
+            line-height: 16px !important;
+            bottom: 0px !important;
+            color: #fff !important;
+            background-color: transparent !important;
+
+            &::after {
+                height: 0 !important;
+            }
+        }
+    }
+}
+
+// Submit Button
+#can_embed_form #can_embed_form_inner {
+    input[type=submit] {
+        font-family: 'Paralucent', sans-serif;
+        color: $black !important;
+        font-weight: 700 !important;
+        background-color: #fff !important;
+        border: 3px solid $pink !important;
+        border-radius: 18px !important;
+        width: 50% !important;
+    }
+}
+
+#can_embed_form #can_embed_form_inner {
+    #d_sharing {
+        border-top: transparent !important;
+
+        ul li label {
+            color: #fff !important;
+            font-family: 'Paralucent', sans-serif !important;
+            font-weight: 200 !important;
+            font-size: 16px !important;
+
+        }
+    }
+}
+
+#logo_wrap,
+#action_info {
+    display: none;
+}
+
+
