@@ -36,15 +36,23 @@ p {
 a {
   font-family: "Paralucent", sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 21px;
   color: #E71845;
   text-transform: uppercase;
   text-decoration: none;
 }
 
+li {
+  font-family: "Paralucent", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  padding-bottom: 10px;
+}
+
 i {
   font-weight: 900;
   font-size: 16px;
+  padding: 5px;
 }
 
 i.fa-angle-up {
@@ -124,15 +132,7 @@ i.fa-circle {
   border-color: #E71845 !important;
 }
 #can_embed_form #can_embed_form_inner .floatlabel-wrapper label.floatlabel-label {
-  font-family: "Paralucent", sans-serif !important;
-  font-size: 16px !important;
-  line-height: 16px !important;
-  bottom: 0px !important;
-  color: #fff !important;
-  background-color: transparent !important;
-}
-#can_embed_form #can_embed_form_inner .floatlabel-wrapper label.floatlabel-label::after {
-  height: 0 !important;
+  display: none !important;
 }
 
 #can_embed_form #can_embed_form_inner input[type=submit] {
@@ -143,6 +143,10 @@ i.fa-circle {
   border: 3px solid #E71845 !important;
   border-radius: 18px !important;
   width: 50% !important;
+}
+#can_embed_form #can_embed_form_inner #form_col1, #can_embed_form #can_embed_form_inner #form_col2 {
+  float: none !important;
+  width: 100% !important;
 }
 
 #can_embed_form #can_embed_form_inner #d_sharing {
@@ -156,8 +160,9 @@ i.fa-circle {
 }
 
 #logo_wrap,
-#action_info {
-  display: none;
+#action_info,
+.international_link-wrap {
+  display: none !important;
 }
 
 .logo-cont {
@@ -188,20 +193,28 @@ i.fa-circle {
   line-height: 25px;
   color: #040507;
 }
-
-.btn-join {
+.cta-section .btn-join {
+  display: block;
+  text-align: center;
   color: #E71845;
   font-weight: 700;
+  font-size: 18px;
   background-color: #fff;
   text-transform: uppercase;
   width: 160px;
-  height: 36px;
   border: 3px solid black;
   border-radius: 18px;
-  margin-bottom: 20px;
-  margin-left: 10px;
 }
 
+.cta-desktop {
+  margin: -300px;
+}
+
+@media (max-width: 767px) {
+  .cta-desktop {
+    margin: 0px;
+  }
+}
 .video-section {
   background-color: #E71845;
 }
@@ -245,6 +258,21 @@ footer p {
 .modal-dialog iframe {
   width: 100%;
   height: 60vh;
+}
+
+.sticky-bottom {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  z-index: 99999;
+  background-color: #E1D636;
+  width: 100%;
+  padding: 10px;
+  left: 0;
+}
+.sticky-bottom .btn-join {
+  width: 160px;
+  margin: 0 auto;
 }
 
 @-webkit-keyframes ticker {
@@ -301,7 +329,6 @@ footer p {
 
 .container,
 .container-fluid {
-  overflow: hidden;
   padding: 0;
 }
 
@@ -314,7 +341,7 @@ ul,
 li {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: none outside;
 }
 
 img {

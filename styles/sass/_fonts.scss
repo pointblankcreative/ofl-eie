@@ -44,16 +44,24 @@ p {
 a {
     font-family: 'Paralucent', sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 21px;
     color: $pink;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+li {
+    font-family: 'Paralucent', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    padding-bottom: 10px;
 }
 
 // Icons
 i {
     font-weight: 900;
     font-size: 16px;
+    padding: 5px;
 }
 
 i.fa-angle-up {

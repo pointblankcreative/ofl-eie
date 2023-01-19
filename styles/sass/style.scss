@@ -16,7 +16,7 @@ $black: #040507;
 }
 .container,
 .container-fluid {
-    overflow: hidden;
+    // overflow: hidden;
     padding: 0;
 }
 body {
@@ -27,7 +27,7 @@ ul,
 li {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none outside;
 }
 img {
     width: 100%;
