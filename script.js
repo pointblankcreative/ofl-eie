@@ -1,11 +1,10 @@
 console.log('ARE YOU FED UP?')
 
-const btn = document.querySelector('#main-btn')
-console.log(btn)
-
+const btn = document.querySelector('#main-btn');
 let bottomOfBtn = btn.offsetTop;
 
-console.log(bottomOfBtn)
+// const moreSections = document.querySelectorAll('.read-more');
+
 
 function stickyBtn() {
     if (window.scrollY >= bottomOfBtn) {
@@ -15,4 +14,13 @@ function stickyBtn() {
     }
 }
 
+// function toggleOpen() {
+//     console.log('hello')
+//     // this.classList.toggle('open');
+// }
+
+// moreSections.forEach(item => item.addEventListener('click', toggleOpen));
+
 window.addEventListener('scroll', stickyBtn);
+
+

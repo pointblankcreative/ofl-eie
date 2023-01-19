@@ -37,6 +37,8 @@ h4 {
 
 p {
     font-family: 'Paralucent', sans-serif;
+    font-size: 21px;
+    line-height: 25px;
     font-weight: 500;
     color: #fff;
 }
@@ -44,7 +46,7 @@ p {
 a {
     font-family: 'Paralucent', sans-serif;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 16px;
     color: $pink;
     text-transform: uppercase;
     text-decoration: none;
@@ -54,7 +56,8 @@ li {
     font-family: 'Paralucent', sans-serif;
     font-weight: 400;
     font-size: 21px;
-    padding-bottom: 10px;
+    line-height: 25px;
+    margin-bottom: 10px;
 }
 
 // Icons
@@ -65,7 +68,7 @@ i {
 }
 
 i.fa-angle-up {
-    display: none;
+    // display: none;
     color: $black;
 }
 
@@ -77,4 +80,36 @@ i.fa-angle-down {
 i.fa-circle {
     color: $pink;
     font-size: 10px;
+}
+
+// Buttons
+.btn-social {
+    color: $pink;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #fff;
+    text-transform: uppercase;
+    width: 250px;
+    // height: 36px;
+    border: 3px solid black;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    // margin-left: 10px;
+    // padding: 5px 10px;
+}
+
+.sticky-bottom {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    z-index: 99999;
+    background-color: $yellow;
+    width: 100%;
+    padding: 10px;
+    left: 0;
+
+    .btn-join {
+        width: 160px;
+        margin: 0 auto;
+    }
 }

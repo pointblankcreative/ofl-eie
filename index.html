@@ -26,18 +26,21 @@
 
 <body>
 <!-- Modal -->
-<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header border-bottom-0">
                 <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+
             <div class="modal-body">
+            <!-- 16:9 aspect ratio -->
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rtgcreGcGrE" id="video" allowscriptaccess="always" allow="autoplay" crossorigins="anonymous"></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rtgcreGcGrE" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
@@ -100,15 +103,15 @@
         </div>
 
         <!-- Video container div -->
-        <div class="mx-0 px-3 my-3 col-md-6 ms-md-5">
+        <div class="mx-0 px-3 my-3 col-md-9 ms-md-5">
             <img src="./assets/video-hero.png" alt="" data-bs-toggle="modal" data-bs-target="#videoModal">
         </div>
 
 
-        <div class="row mx-0 ms-md-5">
+        <div class="row mx-0 px-3 ms-md-5">
             <a class="btn-social"><i class="fa-brands fa-facebook-f"></i> Share on Facebook</a>
         </div>
-        <div class="row mx-0 ms-md-5">
+        <div class="row mx-0 px-3 ms-md-5">
             <a class="btn-social"><i class="fa-brands fa-twitter"></i> Share on Twitter</a>
         </div>
 
@@ -120,6 +123,7 @@
             enough. Here are our demands:</p>
         </div>
 
+
         <!-- ISSUES -->
         <div class="row mx-0 mb-3">
             <div class="col mx-md-5">
@@ -127,7 +131,27 @@
                     <div class="card-body">
                         <h4 class="card-title">Real wage increases</h4>
                         <p class="card-text text-dark">As the cost of living increases, wages are staying the same. Here’s what we need to do.</p>
-                        <a href="#">Learn More <i class="fa-solid fa-angle-down"></i></a>
+
+                        <!-- Issue start -->
+                            <a data-bs-toggle="collapse" href="#issue1" role="button" aria-expanded="false"
+                                aria-controls="issue1">
+                                Learn More
+                                <i class="fa-solid fa-angle-down" id="arrowDown"></i>
+                            </a>
+                            <a href="#"> 
+                                <i class="fa-solid fa-angle-up" id="arrowUp"></i>
+                            </a>
+
+                        <div class="collapse" id="issue1">
+                            <ul>
+                                <li><i class="fa-solid fa-circle"></i> Tax the record profits of the banks and the corporations</li>
+                                <li><i class="fa-solid fa-circle"></i> Make the wealthiest 1% pay their fair share and restore tax rates for the
+                                    highest earners.</li>
+                                <li><i class="fa-solid fa-circle"></i> End the tax breaks and tax loopholes for banks and corporations.</li>
+                                <li><i class="fa-solid fa-circle"></i> Impose finds on banks and corporations that fail to pay unpaid tax.</li>
+                            </ul>
+                        </div>
+                        <!-- Issue end -->
                     </div>
                 </div>
             </div>
@@ -139,7 +163,28 @@
                     <div class="card-body">
                         <h4 class="card-title">Keep schools and health care public</h4>
                         <p class="card-text text-dark">Everyone deserves accessible education and health care. We can’t let our public services be sold off profit.</p>
-                        <a href="#">Learn More <i class="fa-solid fa-angle-down"></i></a>
+                        
+                        <!-- Issue start -->
+                        <a data-bs-toggle="collapse" href="#issue2" role="button" aria-expanded="false"
+                            aria-controls="issue2">
+                            Learn More
+                            <i class="fa-solid fa-angle-down" id="arrowDown"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-angle-up" id="arrowUp"></i>
+                        </a>
+                        
+                        <div class="collapse" id="issue2">
+                            <ul>
+                                <li><i class="fa-solid fa-circle"></i> Tax the record profits of the banks and the corporations</li>
+                                <li><i class="fa-solid fa-circle"></i> Make the wealthiest 1% pay their fair share and restore tax rates for the
+                                    highest earners.</li>
+                                <li><i class="fa-solid fa-circle"></i> End the tax breaks and tax loopholes for banks and corporations.</li>
+                                <li><i class="fa-solid fa-circle"></i> Impose finds on banks and corporations that fail to pay unpaid tax.</li>
+                            </ul>
+                        </div>
+                        <!-- Issue end -->
+
                     </div>
                 </div>
             </div>
@@ -151,7 +196,26 @@
                     <div class="card-body">
                         <h4 class="card-title">Affordable groceries, gas and basic goods</h4>
                         <p class="card-text text-dark">It’s what we need to survive. We shouldn’t have to struggle to afford it.</p>
-                        <a href="#">Learn More <i class="fa-solid fa-angle-down"></i></a>
+                       
+                    <!-- Issue start -->
+                    <a data-bs-toggle="collapse" href="#issue3" role="button" aria-expanded="false" aria-controls="issue3">
+                        Learn More
+                        <i class="fa-solid fa-angle-down" id="arrowDown"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-angle-up" id="arrowUp"></i>
+                    </a>
+                    
+                    <div class="collapse" id="issue3">
+                        <ul>
+                            <li><i class="fa-solid fa-circle"></i> Tax the record profits of the banks and the corporations</li>
+                            <li><i class="fa-solid fa-circle"></i> Make the wealthiest 1% pay their fair share and restore tax rates for the
+                                highest earners.</li>
+                            <li><i class="fa-solid fa-circle"></i> End the tax breaks and tax loopholes for banks and corporations.</li>
+                            <li><i class="fa-solid fa-circle"></i> Impose finds on banks and corporations that fail to pay unpaid tax.</li>
+                        </ul>
+                    </div>
+                    <!-- Issue end -->
                     </div>
                 </div>
             </div>
@@ -163,7 +227,26 @@
                     <div class="card-body">
                         <h4 class="card-title">Rent control and affordable housing</h4>
                         <p class="card-text text-dark">As the cost of living increases, wages are staying the same. Here’s what we need to do.</p>
-                        <a href="#">Learn More <i class="fa-solid fa-angle-down"></i></a>
+
+                        <!-- Issue start -->
+                        <a data-bs-toggle="collapse" href="#issue4" role="button" aria-expanded="false" aria-controls="issue4">
+                            Learn More
+                            <i class="fa-solid fa-angle-down" id="arrowDown"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-angle-up" id="arrowUp"></i>
+                        </a>
+                        
+                        <div class="collapse" id="issue4">
+                            <ul>
+                                <li><i class="fa-solid fa-circle"></i> Tax the record profits of the banks and the corporations</li>
+                                <li><i class="fa-solid fa-circle"></i> Make the wealthiest 1% pay their fair share and restore tax rates for the
+                                    highest earners.</li>
+                                <li><i class="fa-solid fa-circle"></i> End the tax breaks and tax loopholes for banks and corporations.</li>
+                                <li><i class="fa-solid fa-circle"></i> Impose finds on banks and corporations that fail to pay unpaid tax.</li>
+                            </ul>
+                        </div>
+                        <!-- Issue end -->
                     </div>
                 </div>
             </div>
@@ -176,18 +259,25 @@
                         <h4 class="card-title">Make the banks and corporations pay</h4>
                         <p class="card-text text-dark">We all have to pay our fair share. Especially banks and big corporations</p>
 
-                        <a href="#">Learn More 
-                            <i class="fa-solid fa-angle-down"></i>
-                            <i class="fa-solid fa-angle-up"></i>
-                        </a>
-
+                    <!-- Issue start -->
+                    <a data-bs-toggle="collapse" href="#issue5" role="button" aria-expanded="false" aria-controls="issue5">
+                        Learn More
+                        <i class="fa-solid fa-angle-down" id="arrowDown"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-angle-up" id="arrowUp"></i>
+                    </a>
+                    
+                    <div class="collapse" id="issue5">
                         <ul>
                             <li><i class="fa-solid fa-circle"></i> Tax the record profits of the banks and the corporations</li>
-                            <li><i class="fa-solid fa-circle"></i> Make the wealthiest 1% pay their fair share and restore tax rates for the highest earners.</li>
+                            <li><i class="fa-solid fa-circle"></i> Make the wealthiest 1% pay their fair share and restore tax rates for the
+                                highest earners.</li>
                             <li><i class="fa-solid fa-circle"></i> End the tax breaks and tax loopholes for banks and corporations.</li>
                             <li><i class="fa-solid fa-circle"></i> Impose finds on banks and corporations that fail to pay unpaid tax.</li>
                         </ul>
                     </div>
+                    <!-- Issue end -->
                 </div>
             </div>
         </div>
@@ -209,16 +299,31 @@
             </div>
         </section>
 
+<!-- FOOTER SECTION -->
     <footer class="container-fluid mx-0 border border-dark border-5">
-        <div class="row d-flex justify-content-between mx-0 py-3">
+        <div class="row d-flex justify-content-between mx-0 pt-4">
             <div class="col-6 col-md-3">
-                <img src="./assets/OFL_Logo_Outline_HORIZ_SCREEN.png" alt="Ontario Federation of Labour Logo">
+                <a href="https://ofl.ca/">
+                    <img src="./assets/OFL_Logo_Outline_HORIZ_SCREEN.png" alt="Ontario Federation of Labour Logo">
+                </a>
             </div>
             <div class="col-6">
                 <div class="d-flex justify-content-end">
-                    <div class="social-icon"><img src="./assets/FB.png" alt=""></div>
-                    <div class="social-icon"><img src="./assets/FB.png" alt=""></div>
-                    <div class="social-icon"><img src="./assets/FB.png" alt=""></div>
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/onfedlab/">
+                            <img src="./assets/IG.png" alt="Instagram">
+                        </a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/OFLabour/">
+                            <img src="./assets/FB.png" alt="Facebook">
+                        </a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="https://twitter.com/OFLabour">
+                            <img src="./assets/TW.png" alt="Twitter">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -229,7 +334,7 @@
             <p>info@ofl.ca</p>
         </div>
         <div class="row mx-0 py-3">
-            <p>Copyright 2023 OFL</p>
+            <p>Copyright © 2023 OFL</p>
         </div>
     </footer> 
 </div>
