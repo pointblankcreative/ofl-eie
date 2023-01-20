@@ -86,6 +86,12 @@ i.fa-circle {
 }
 
 // Buttons
+.lang-toggle p {
+    color: #040507;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+
+}
 .btn-social {
     color: $pink;
     font-size: 16px;
@@ -116,3 +122,4 @@ i.fa-circle {
         margin: 0 auto;
     }
 }
+
