@@ -112,10 +112,12 @@ i.fa-circle {
   background-color: #040507;
 }
 
-#can-event-area-enough-is-enough-activist-assembly {
+#can-event-area-join-us-because-enough-is-enough,
+#can-event-area-join-us-because-enough-is-enough-2 {
   background-color: #040507 !important;
 }
-#can-event-area-enough-is-enough-activist-assembly #can_embed_form {
+#can-event-area-join-us-because-enough-is-enough #can_embed_form,
+#can-event-area-join-us-because-enough-is-enough-2 #can_embed_form {
   background-color: #040507 !important;
   border: none !important;
 }
@@ -131,14 +133,16 @@ i.fa-circle {
 
 #can_embed_form #can_embed_form_inner h2 {
   font-family: "Passion One", cursive !important;
-  font-size: 50px !important;
+  font-size: 40px !important;
   line-height: 42px !important;
   color: #fff !important;
+  margin-bottom: 40px !important;
 }
 
 #can_embed_form #can_embed_form_inner #action_welcome_message #action_welcome_message_inner {
   background-color: transparent !important;
   border: 1px solid #fff !important;
+  margin-bottom: 40px !important;
 }
 #can_embed_form #can_embed_form_inner #action_welcome_message #action_welcome_message_inner div {
   color: #fff !important;
@@ -163,7 +167,7 @@ i.fa-circle {
   border-radius: 23px !important;
   line-height: 25px !important;
   border: none !important;
-  margin-top: 30px !important;
+  margin-bottom: 30px !important;
 }
 #can_embed_form #can_embed_form_inner input[type=text]:focus,
 #can_embed_form #can_embed_form_inner input[type=password]:focus,
@@ -174,7 +178,16 @@ i.fa-circle {
   border-color: #E71845 !important;
 }
 #can_embed_form #can_embed_form_inner .floatlabel-wrapper label.floatlabel-label {
+  font-family: "Paralucent", sans-serif !important;
+  font-size: 16px !important;
+  line-height: 16px !important;
+  bottom: 0px !important;
+  color: #fff !important;
+  background-color: transparent !important;
   display: none !important;
+}
+#can_embed_form #can_embed_form_inner .floatlabel-wrapper label.floatlabel-label::after {
+  height: 0 !important;
 }
 
 #can_embed_form #can_embed_form_inner input[type=submit] {
@@ -185,6 +198,7 @@ i.fa-circle {
   border: 3px solid #E71845 !important;
   border-radius: 18px !important;
   width: 100% !important;
+  margin-top: 40px !important;
 }
 #can_embed_form #can_embed_form_inner #form_col1, #can_embed_form #can_embed_form_inner #form_col2 {
   float: none !important;
@@ -271,7 +285,7 @@ i.fa-circle {
 }
 
 .cta-desktop {
-  margin-top: -300px;
+  margin-top: -500px;
 }
 
 @media (max-width: 767px) {
