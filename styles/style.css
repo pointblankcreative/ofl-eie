@@ -18,8 +18,8 @@ h1.title-fr {
 
 @media (min-width: 767px) {
   h1.title-fr {
-    font-size: 120px;
-    line-height: 110px;
+    font-size: 100px;
+    line-height: 100px;
   }
 }
 h2 {
@@ -63,6 +63,13 @@ a {
   text-decoration: none;
 }
 
+a:hover,
+a:focus {
+  color: #040507;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 li {
   font-family: "Paralucent", sans-serif;
   font-weight: 400;
@@ -96,6 +103,7 @@ i.fa-circle {
   font-size: 20px;
   text-decoration: underline;
   text-decoration-thickness: 3px;
+  cursor: pointer;
 }
 
 .btn-social {
@@ -108,6 +116,13 @@ i.fa-circle {
   border: 3px solid black;
   border-radius: 18px;
   margin-bottom: 20px;
+}
+
+.btn-social:hover,
+.btn-social:focus {
+  color: #040507;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .sticky-bottom {
@@ -290,7 +305,12 @@ i.fa-circle {
   width: 300px;
   position: absolute;
   bottom: 10px;
-  right: -90px;
+  right: -60px;
+}
+
+.ty-star {
+  right: -80px;
+  bottom: -65px;
 }
 
 .starburst-fr {
@@ -315,7 +335,11 @@ i.fa-circle {
   }
   .img-cont-md {
     display: block;
-    left: 28%;
+    left: 48%;
+  }
+  .ty-star {
+    bottom: 10px;
+    right: -60px;
   }
   .img-cont-md.starbust-index-fr {
     left: 38%;
@@ -346,14 +370,16 @@ i.fa-circle {
   border: 3px solid black;
   border-radius: 18px;
 }
-
-.cta-desktop {
-  margin-top: -500px;
+.cta-section .btn-join:hover,
+.cta-section .btn-join:focus {
+  color: #040507;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .cta-desktop {
-    margin: 0px;
+    margin-top: -500px;
   }
 }
 .video-section {
