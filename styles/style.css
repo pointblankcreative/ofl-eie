@@ -91,9 +91,9 @@ i.fa-circle {
   font-size: 10px;
 }
 
-.lang-toggle p {
-  color: #040507;
-  font-size: 18px;
+.lang-toggle a {
+  color: #E71845;
+  font-size: 20px;
   text-decoration: underline;
   text-decoration-thickness: 3px;
 }
