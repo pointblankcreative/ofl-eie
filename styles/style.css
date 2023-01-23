@@ -6,6 +6,22 @@ h1 {
   margin-bottom: 40px;
 }
 
+h1.index-title-fr {
+  font-size: 100px;
+  line-height: 90px;
+}
+
+h1.title-fr {
+  font-size: 70px;
+  line-height: 65px;
+}
+
+@media (min-width: 767px) {
+  h1.title-fr {
+    font-size: 120px;
+    line-height: 110px;
+  }
+}
 h2 {
   font-family: "Passion One", cursive;
   font-size: 70px;
@@ -88,7 +104,7 @@ i.fa-circle {
   font-weight: 700;
   background-color: #fff;
   text-transform: uppercase;
-  width: 230px;
+  width: 250px;
   border: 3px solid black;
   border-radius: 18px;
   margin-bottom: 20px;
@@ -277,6 +293,14 @@ i.fa-circle {
   right: -90px;
 }
 
+.starburst-fr {
+  bottom: -95px;
+}
+
+.starbust-index-fr {
+  right: -150px;
+}
+
 .sticky-star {
   display: none;
   height: 200px;
@@ -292,6 +316,9 @@ i.fa-circle {
   .img-cont-md {
     display: block;
     left: 28%;
+  }
+  .img-cont-md.starbust-index-fr {
+    left: 38%;
   }
   .sticky-star {
     display: block;

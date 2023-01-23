@@ -23,6 +23,18 @@ $black: #040507;
     right: -90px;
 }
 
+.starburst-fr {
+    // height: 300px;
+    // width: 300px;
+    // position: absolute;
+    bottom: -95px;
+    // right: -90px;
+}
+
+.starbust-index-fr {
+    right: -150px
+}
+
 .sticky-star {
     display: none;
     height: 200px;
@@ -38,6 +50,9 @@ $black: #040507;
     .img-cont-md {
         display: block;
         left: 28%;
+    }
+    .img-cont-md.starbust-index-fr {
+        left: 38%
     }
     .sticky-star {
         display: block;
