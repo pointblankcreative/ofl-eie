@@ -1,6 +1,6 @@
 h1 {
   font-family: "Passion One", cursive;
-  font-size: 120px;
+  font-size: 150px;
   line-height: 110px;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -8,7 +8,7 @@ h1 {
 
 h1.index-title-fr {
   font-size: 100px;
-  line-height: 90px;
+  line-height: 80px;
 }
 
 h1.title-fr {
@@ -17,9 +17,13 @@ h1.title-fr {
 }
 
 @media (min-width: 767px) {
+  h1.index-title-fr {
+    font-size: 120px;
+    line-height: 100px;
+  }
   h1.title-fr {
     font-size: 100px;
-    line-height: 100px;
+    line-height: 90px;
   }
 }
 h2 {
@@ -301,8 +305,8 @@ i.fa-circle {
 }
 
 .img-cont-mobile {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   position: absolute;
   bottom: 10px;
   right: -60px;
@@ -318,7 +322,7 @@ i.fa-circle {
 }
 
 .starbust-index-fr {
-  right: -150px;
+  right: -120px;
 }
 
 .sticky-star {
@@ -335,7 +339,8 @@ i.fa-circle {
   }
   .img-cont-md {
     display: block;
-    left: 48%;
+    left: 38%;
+    top: 25%;
   }
   .ty-star {
     bottom: 10px;
@@ -379,7 +384,7 @@ i.fa-circle {
 
 @media (min-width: 767px) {
   .cta-desktop {
-    margin-top: -500px;
+    margin-top: -300px;
   }
 }
 .video-section {

@@ -8,14 +8,14 @@ h1 {
     font-family: 'Passion One', cursive;
     // font-size: 210px;
     // line-height: 158px;
-    font-size: 120px;
+    font-size: 150px;
     line-height: 110px;
     text-transform: uppercase;
     margin-bottom: 40px;
 }
 h1.index-title-fr {
     font-size: 100px;
-    line-height: 90px;
+    line-height: 80px;
 }
 h1.title-fr {
     font-size: 70px;
@@ -23,9 +23,13 @@ h1.title-fr {
 }
 
 @media (min-width:767px) {
+    h1.index-title-fr {
+        font-size: 120px;
+        line-height: 100px;
+    }
     h1.title-fr {
         font-size: 100px;
-        line-height: 100px;
+        line-height: 90px;
     }
 }
 
