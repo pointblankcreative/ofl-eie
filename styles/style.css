@@ -12,18 +12,18 @@ h1.index-title-fr {
 }
 
 h1.title-fr {
-  font-size: 70px;
-  line-height: 65px;
+  font-size: 100px;
+  line-height: 80px;
 }
 
 @media (min-width: 767px) {
   h1.index-title-fr {
-    font-size: 120px;
-    line-height: 100px;
+    font-size: 150px;
+    line-height: 110px;
   }
   h1.title-fr {
-    font-size: 100px;
-    line-height: 90px;
+    font-size: 150px;
+    line-height: 110px;
   }
 }
 h2 {
@@ -318,7 +318,7 @@ i.fa-circle {
 }
 
 .starburst-fr {
-  bottom: -95px;
+  bottom: -5px;
 }
 
 .starbust-index-fr {
@@ -342,11 +342,14 @@ i.fa-circle {
     left: 38%;
     top: 25%;
   }
+  .starburst-fr {
+    left: 55%;
+  }
   .ty-star {
     bottom: 10px;
     right: -60px;
   }
-  .img-cont-md.starbust-index-fr {
+  .starbust-index-fr {
     left: 38%;
   }
   .sticky-star {
@@ -384,7 +387,10 @@ i.fa-circle {
 
 @media (min-width: 767px) {
   .cta-desktop {
-    margin-top: -300px;
+    display: none;
+  }
+  .join-desktop {
+    display: block;
   }
 }
 .video-section {
