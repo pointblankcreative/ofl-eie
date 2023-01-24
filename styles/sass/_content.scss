@@ -13,9 +13,13 @@ $black: #040507;
     left: 0;
     padding: 50px 0;
     min-height: 50vh;
+    z-index: 1;
 }
 
 // Starburst
+.starburst {
+    z-index: -1;
+}
 .img-cont-mobile {
     height: 250px;
     width: 250px;
@@ -50,9 +54,6 @@ $black: #040507;
         left: 38%;
         top: 25%;
     }
-    .starburst-fr {
-        left: 55%;
-    }
     .ty-star {
     bottom: 10px;
     right: -60px;
@@ -63,6 +64,7 @@ $black: #040507;
     .sticky-star {
         display: block;
         z-index: 99999;
+        bottom: -50%;
     }
 }
 

@@ -302,6 +302,11 @@ i.fa-circle {
   left: 0;
   padding: 50px 0;
   min-height: 50vh;
+  z-index: 1;
+}
+
+.starburst {
+  z-index: -1;
 }
 
 .img-cont-mobile {
@@ -342,9 +347,6 @@ i.fa-circle {
     left: 38%;
     top: 25%;
   }
-  .starburst-fr {
-    left: 55%;
-  }
   .ty-star {
     bottom: 10px;
     right: -60px;
@@ -355,6 +357,7 @@ i.fa-circle {
   .sticky-star {
     display: block;
     z-index: 99999;
+    bottom: -50%;
   }
 }
 .cta-section {

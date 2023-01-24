@@ -19,7 +19,7 @@ function stickyBtn() {
 
 function starBtn() {
     if (window.scrollY >= bottomOfBtn) {
-        stickyStar.style.top = window.scrollY + 50 + 'px'
+        stickyStar.style.top = window.scrollY + 100 + 'px'
     } else {
         stickyStar.style.top = bottomOfBtn
     }
