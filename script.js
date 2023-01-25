@@ -11,6 +11,14 @@ const actionForm = document.getElementById('joinForm')
 const topOfForm = actionForm.offsetTop
 // console.log(topOfForm)
 
+const video = document.querySelector('iframe')
+// console.log('video', video)
+const closeBtn = document.getElementsByClassName('btn-close')[0]
+// console.log(closeBtn)
+
+const modalOpen = document.getElementsByClassName('video-hero')[0]
+console.log(modalOpen)
+
 function stickyBtn() {
     if (windowWidth >= 767) {
         return
@@ -36,8 +44,21 @@ function starBtn() {
 function starGone() {
     stickyStar.style.display = 'none'
 }
+
+function closeVideo() {
+    video.src = ""
+}
+
+function toggleModal() {
+    video.src = "https://www.youtube.com/embed/8ifSqoopAzU"
+}
+
 window.addEventListener('scroll', stickyBtn);
 window.addEventListener('scroll', starBtn);
 actionForm.addEventListener('click', starGone);
+closeBtn.addEventListener('click', closeVideo)
+modalOpen.addEventListener('click', toggleModal)
+
+
 
 
