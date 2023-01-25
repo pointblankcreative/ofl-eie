@@ -103,10 +103,16 @@ i.fa-circle {
 }
 
 .lang-toggle a {
-  color: #E71845;
+  color: #040507;
   font-size: 20px;
   text-decoration: underline;
   text-decoration-thickness: 3px;
+}
+
+.lang-toggle a:hover,
+.lang-toggle a:focus {
+  color: #E71845;
+  font-size: 24px;
   cursor: pointer;
 }
 
@@ -138,6 +144,7 @@ i.fa-circle {
   width: 100%;
   padding: 10px;
   left: 0;
+  border: 5px solid #040507;
 }
 .sticky-bottom .btn-join {
   width: 160px;
@@ -262,7 +269,7 @@ i.fa-circle {
   border: 3px solid #E71845 !important;
   border-radius: 18px !important;
   line-height: 25px !important;
-  width: 100% !important;
+  width: 55% !important;
   margin-top: 20px !important;
 }
 #can_embed_form #can_embed_form_inner input[type=submit]:hover {
@@ -507,7 +514,7 @@ ul,
 li {
   margin: 0;
   padding: 0;
-  list-style: none outside;
+  list-style: none;
 }
 
 img {

@@ -112,12 +112,20 @@ i.fa-circle {
 
 // Buttons
 .lang-toggle a {
-    color: $pink;
+    color: $black;
     font-size: 20px;
     text-decoration: underline;
     text-decoration-thickness: 3px;
+}
+.lang-toggle a:hover,
+.lang-toggle a:focus {
+    color: $pink;
+    font-size: 24px;
     cursor: pointer;
 }
+
+
+
 .btn-social {
     color: $pink;
     font-size: 16px;
@@ -125,12 +133,9 @@ i.fa-circle {
     background-color: #fff;
     text-transform: uppercase;
     width: 250px;
-    // height: 36px;
     border: 3px solid black;
     border-radius: 18px;
     margin-bottom: 20px;
-    // margin-left: 10px;
-    // padding: 5px 10px;
 }
 
 .btn-social:hover, 
@@ -148,6 +153,7 @@ i.fa-circle {
     width: 100%;
     padding: 10px;
     left: 0;
+    border: 5px solid $black;
     .btn-join {
         width: 160px;
         margin: 0 auto;
