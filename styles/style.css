@@ -38,7 +38,7 @@ h3 {
   font-family: "Passion One", cursive;
   font-size: 50px;
   line-height: 42px;
-  color: #fff;
+  color: #040507;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
@@ -99,6 +99,11 @@ i.fa-angle-down {
 
 i.fa-circle {
   color: #E71845;
+  font-size: 10px;
+}
+
+i.dark-circle {
+  color: #040507;
   font-size: 10px;
 }
 
@@ -303,6 +308,10 @@ i.fa-circle {
   width: 240px;
 }
 
+header {
+  border: 5px solid #040507;
+}
+
 .title {
   position: relative;
   bottom: 0;
@@ -364,11 +373,14 @@ i.fa-circle {
   .sticky-star {
     display: block;
     z-index: 99999;
-    bottom: -20%;
+    bottom: -30%;
   }
 }
 .cta-section {
   background-color: #E1D636;
+  border-right: 5px solid #040507;
+  border-left: 5px solid #040507;
+  border-bottom: 5px solid #040507;
 }
 .cta-section p {
   font-family: "Paralucent", sans-serif;
@@ -424,8 +436,23 @@ i.fa-circle {
   display: none;
 }
 
+.card {
+  border: 3px solid #040507;
+}
+.card p.card-text {
+  color: #040507;
+}
+
+.ty-section {
+  border: 5px solid #040507;
+}
+.ty-section p {
+  color: #040507;
+}
+
 footer {
   background-color: #fff;
+  border: 5px solid #040507;
 }
 footer p {
   text-align: right;
@@ -475,6 +502,7 @@ footer .social-icon {
   padding-left: 100%;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
+  border-bottom: 5px solid #040507;
 }
 .ticker-wrap .ticker {
   white-space: nowrap;
@@ -489,6 +517,9 @@ footer .social-icon {
   animation-name: ticker;
   -webkit-animation-duration: 60s;
   animation-duration: 60s;
+}
+.ticker-wrap p.ticker-item {
+  color: #040507;
 }
 
 * {

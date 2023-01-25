@@ -24,11 +24,13 @@ $duration: 60s;
     }
 }
 
+
 .ticker-wrap {
     width: 100%;
     overflow: hidden;
     padding-left: 100%;
     box-sizing: content-box;
+    border-bottom: 5px solid $dark;
 
     .ticker {
         white-space: nowrap;
@@ -43,6 +45,10 @@ $duration: 60s;
         animation-name: ticker;
         -webkit-animation-duration: $duration;
         animation-duration: $duration;
+    }
+
+    p.ticker-item {
+        color: $dark;
     }
 }
 

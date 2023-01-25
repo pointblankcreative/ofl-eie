@@ -46,7 +46,7 @@ h3 {
     font-family: 'Passion One', cursive;
     font-size: 50px;
     line-height: 42px;
-    color: #fff;
+    color: $dark;
     text-transform: uppercase;
     margin-bottom: 40px;
 }
@@ -110,6 +110,10 @@ i.fa-circle {
     color: $pink;
     font-size: 10px;
 }
+i.dark-circle {
+    color: $dark;
+    font-size: 10px;
+}
 
 // Buttons
 .lang-toggle a {
@@ -124,8 +128,6 @@ i.fa-circle {
     font-size: 24px;
     cursor: pointer;
 }
-
-
 
 .btn-social {
     color: $pink;
