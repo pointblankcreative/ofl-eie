@@ -7,17 +7,14 @@ const stickyStar = document.querySelector('#stickyStar')
 let bottomOfStar = stickyStar.offsetTop
 
 const actionForm = document.getElementById('joinForm')
-// console.log(actionForm)
 const topOfForm = actionForm.offsetTop
-// console.log(topOfForm)
 
 const video = document.querySelector('iframe')
-// console.log('video', video)
 const closeBtn = document.getElementsByClassName('btn-close')[0]
-// console.log(closeBtn)
+const backgroundClose = document.getElementById('videoModal')
+
 
 const modalOpen = document.getElementsByClassName('video-hero')[0]
-console.log(modalOpen)
 
 function stickyBtn() {
     if (windowWidth >= 767) {
@@ -57,6 +54,7 @@ window.addEventListener('scroll', stickyBtn);
 window.addEventListener('scroll', starBtn);
 actionForm.addEventListener('click', starGone);
 closeBtn.addEventListener('click', closeVideo)
+backgroundClose.addEventListener('click', closeVideo)
 modalOpen.addEventListener('click', toggleModal)
 
 
