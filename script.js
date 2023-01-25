@@ -6,6 +6,10 @@ const windowWidth = window.innerWidth
 const stickyStar = document.querySelector('#stickyStar')
 let bottomOfStar = stickyStar.offsetTop
 
+const actionForm = document.getElementById('joinForm')
+// console.log(actionForm)
+const topOfForm = actionForm.offsetTop
+// console.log(topOfForm)
 
 function stickyBtn() {
     if (windowWidth >= 767) {
@@ -21,12 +25,19 @@ function stickyBtn() {
 
 function starBtn() {
     if (window.scrollY >= bottomOfStar) {
-        stickyStar.style.top = window.scrollY + 50 + 'px'
-    } else {
+        // console.log(stickyStar.offsetTop)
+        stickyStar.style.top = window.scrollY + 100 + 'px'
+    }   
+    else {
         stickyStar.style.top = bottomOfStar
     }
 }
+
+function starGone() {
+    stickyStar.style.display = 'none'
+}
 window.addEventListener('scroll', stickyBtn);
 window.addEventListener('scroll', starBtn);
+actionForm.addEventListener('click', starGone);
 
 

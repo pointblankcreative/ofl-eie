@@ -1,6 +1,7 @@
 $pink: #E71845;
 $yellow: #E1D636;
 $black: #040507;
+$dark: #040507;
 
 // Custom Styles
 .logo-cont {
@@ -64,7 +65,7 @@ $black: #040507;
     .sticky-star {
         display: block;
         z-index: 99999;
-        bottom: -50%;
+        bottom: -20%;
     }
 
 }

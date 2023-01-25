@@ -364,7 +364,7 @@ i.fa-circle {
   .sticky-star {
     display: block;
     z-index: 99999;
-    bottom: -50%;
+    bottom: -20%;
   }
 }
 .cta-section {
