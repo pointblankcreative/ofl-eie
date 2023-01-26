@@ -13,7 +13,6 @@ const video = document.querySelector('iframe')
 const closeBtn = document.getElementsByClassName('btn-close')[0]
 const backgroundClose = document.getElementById('videoModal')
 
-
 const modalOpen = document.getElementsByClassName('video-hero')[0]
 
 function stickyBtn() {
@@ -30,7 +29,6 @@ function stickyBtn() {
 
 function starBtn() {
     if (window.scrollY >= bottomOfStar) {
-        // console.log(stickyStar.offsetTop)
         stickyStar.style.top = window.scrollY + 100 + 'px'
     }   
     else {
