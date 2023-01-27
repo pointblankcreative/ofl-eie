@@ -23,11 +23,22 @@ body {
     color: $black;
     background-color: transparent;
 }
-ul,
-li {
-    margin: 0;
-    padding: 0;
+// ul,
+// li {
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+// }
+
+ul {
     list-style: none;
+    text-indent: -16px;
+    margin-left: 5px;
+    // padding: 0px;
+}
+li {
+    margin-bottom: 10px;
+    // padding: 0px;
 }
 img {
     width: 100%;
